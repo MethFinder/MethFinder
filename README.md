@@ -11,6 +11,7 @@
     - [Training the Model](#training-the-model)
       - [Command-Line Arguments](#command-line-arguments)
     - [Viewing Results](#viewing-results)
+    - [Prediction](#prediction)
   - [Future Work](#future-work)
 
 ## Introduction
@@ -104,6 +105,15 @@ After training, the following results and files will be generated:
 2. `models` Directory: The directory where the best-trained models are saved for future use or evaluation.
 3. `acc_loss_plot` Directory: Stores plots illustrating the accuracy and loss trends over the training period, helping in visualizing the model's performance.
 4. `umap` Directory: Contains UMAP visualizations that represent high-dimensional data in a 2D space for better interpretation and analysis.
+
+### Prediction
+
+For prediction, run the `predict.py` script. This script use models have been trained properly:
+
+```bash
+cd src/
+python predict.py --input_file predict_example.txt
+```
 
 ## Future Work
 
