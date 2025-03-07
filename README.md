@@ -2,7 +2,7 @@
 
 - [MethFinder](#methfinder)
   - [Introduction](#introduction)
-  - [Data Download\[TODO\]](#data-downloadtodo)
+  - [Data Download](#data-download)
   - [Directory Overview](#directory-overview)
     - [Pre-existing Directories and Files](#pre-existing-directories-and-files)
     - [Generated Files and Directories](#generated-files-and-directories)
@@ -17,7 +17,15 @@
 
 This repository contains the implementation code for **"MethFinder: A Novel Approach to DNA Methylation Prediction Using Adversarial-Specificity Convolutional and Specificity Transformer Techniques."** MethFinder is designed to predict DNA methylation sites with a focus on adversarial specificity and advanced machine learning models.
 
-## Data Download[TODO]
+## Data Download
+
+1. Pretrain-model
+
+2. Datasets (DNA_MS)
+
+[GoogleDrive](https://drive.google.com/drive/folders/1iGMdv6_sSfrDiHYAPDu9SBdGLs3YBpBZ?usp=sharing)
+
+[OneDrive](https://1drv.ms/f/c/3db3e2efc56d17d0/Er64Vx0MreJOizPrYgw3J8IBX78Pa630iowxxcpmWsOffA?e=qmDGkP)
 
 ## Directory Overview
 
@@ -100,6 +108,8 @@ After training, the following results and files will be generated:
 There are several improvements planned for this repository:
 
 - [ ] Add a link to the article and web resources.
+- [ ] Umap Figure
+- [ ] etc..
 - [x] Implement and commit drawing functions for data visualization.
 - [x] Upgrade README.md to include more details about `config.py`.
 - [x] Upgrade `requirements.txt` to ensure compatibility with new dependencies.
