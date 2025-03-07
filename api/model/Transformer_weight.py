@@ -43,7 +43,7 @@ class different_Self_Attention(nn.Module):
 
         # Apply position-specific weights if specified
         if self.weight:
-            weight_artificial = nn.Parameter(torch.tensor([1, 1, 1]))
+            weight_artificial = nn.Parameter(torch.tensor([1., 1., 1.]))
             # Split Q, K, V into non-important and important sections
             Q_b_1 = Q[:, 0:10, :]
             Q_a = Q[:, 10:31, :]
